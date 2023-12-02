@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: /post/editor/
+Disallow: /profile
+Disallow: /auth/login

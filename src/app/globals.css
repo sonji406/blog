@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'DiaGothicMedium';
+  src: url('../../public/fonts/KBO\ Dia\ Gothic_medium.ttf');
+}
+
+@font-face {
+  font-family: 'DiaGothicBold';
+  src: url('../../public/fonts/KBO\ Dia\ Gothic_bold.ttf');
+}
+
+body {
+  @apply my-[70px] items-center justify-center font-sans bg-gray-100;
+}
